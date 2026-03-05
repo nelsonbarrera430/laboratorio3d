@@ -3,7 +3,7 @@ import { Canvas } from "@react-three/fiber";
 import { OrbitControls, useTexture } from "@react-three/drei";
 
 const FiguraInteractiva = () => {
-  // Usamos texturas directamente de internet para que no te dé error de Vite
+  
   const textura1 = useTexture("https://threejs.org/examples/textures/crate.gif"); 
   const textura2 = useTexture("https://threejs.org/examples/textures/brick_diffuse.jpg");
 
